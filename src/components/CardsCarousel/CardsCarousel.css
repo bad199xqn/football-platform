@@ -1,0 +1,61 @@
+.btn-facebook {
+    background-color: #4267B2;
+}
+
+
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+
+  .btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 15px;
+
+  }
+
+
+
+  .btn-circle.btn-lg {
+    width: 60px;
+    height: 60px;
+    /* padding: 10px 16px; */
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 30px;
+  }
+
+#box-wrapper {
+    display:block;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    white-space:nowrap;
+}
+#box-wrapper #box-item {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 3rem;
+}
+
+
+#scroll-left {
+    position: absolute;
+    z-index: 1;
+    right: 2.5rem;
+    top: -2.5rem;
+}
+
+#scroll-right {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: -2.5rem;
+}
